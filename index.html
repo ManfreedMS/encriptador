@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=divece"> 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <header>
+        <h1 class="titulo">Encriptador de Texto</h1>
+    </header>
+    <body>
+        <script src="script.js"></script>
+        <div class="container">
+            <div class="in">
+                <textarea id="entrada" class="input" cols="50" rows="28"></textarea>
+                <br>
+                <button class="btn" onclick="encriptar()">Encriptar</button>
+                <button class="btn" onclick="desencriptar()">Desencriptar</button>
+                <p class="instrucciones">Ingrese su texto en miniscula sin acentos</p>
+            </div>
+            <div class="out">
+                <textarea id="salida" class="output" cols="50" rows="28" readonly></textarea>
+                <br>
+                <button class="btn" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </body>
+</html>

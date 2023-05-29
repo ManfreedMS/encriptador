@@ -1,0 +1,67 @@
+/*Personalizacion*/
+body{
+    font-family: 'EB Garamond', serif;
+    background-color: #04426B;
+}
+
+/*Header*/
+.titulo{
+    color: #ECFBFF;
+    font-weight: 700px;
+}
+
+/*Body*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.in{
+    text-align: center;
+    padding: 0px 25px 0px 50px;
+}
+
+.input{
+    padding: 10px;
+    resize: none;
+    border-radius: 15px;
+    outline: none;
+    border-color: #477A9F;
+    border-width: 5px;
+    background-color: #95C3E8;
+}
+
+.out{
+    text-align: center;
+    padding: 0px 0px 0px 25px;
+}
+
+.output{
+    padding: 10px;
+    resize: none;
+    border-radius: 15px;
+    outline: none;
+    border-color: #477A9F;
+    border-width: 5px;
+    background-color: #95C3E8;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5B8CB5;
+    font-family: 'EB Garamond', serif;
+    font-size: 100%;
+    color: #ECFBFF;
+}
+
+.btn:hover{
+    background-color: #A0C9E7;
+    color: #04426B;
+}
+
+.instrucciones{
+    color: #ECFBFF;
+}
